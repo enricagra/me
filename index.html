@@ -3,39 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Hero Section</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .hero {
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5em;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        @media (max-width: 600px) {
+        /* Responsive styles */
+        @media (max-width: 768px) {
             .hero {
-                padding: 10px;
+                font-size: 1.5em;
+                padding: 20px;
             }
-            h1 {
-                font-size: 1.8em;
-            }
-            p {
-                font-size: 1em;
+            .skill-card, .blog-post {
+                width: 100%;
+                margin-bottom: 20px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>Welcome to Our Site</h1>
-        <p>Improving mobile responsiveness for all components.</p>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1>Modern Scalable Infrastructure</h1>
+        <p>Building modern solutions for a scalable future.</p>
+    </header>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-card">Skill 1</div>
+        <div class="skill-card">Skill 2</div>
+        <div class="skill-card">Skill 3</div>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">Blog post 1</div>
+        <div class="blog-post">Blog post 2</div>
+    </section>
+    <footer>
+        <p>&copy; 2026 enricagra. All rights reserved.</p>
+    </footer>
 </body>
 </html>
