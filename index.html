@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enric Jeims Agra, MBA, MHM | Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0077b5; /* LinkedIn Blue */
+            --secondary-color: #2c3e50;
+            --light-bg: #f4f7f6;
+            --text-dark: #333;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light-bg); color: var(--text-dark); line-height: 1.6; }
+        
+        /* Header */
+        header { background: white; padding: 1rem 5%; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-weight: bold; font-size: 1.5rem; color: var(--primary-color); }
+        nav a { margin-left: 20px; text-decoration: none; color: var(--secondary-color); font-weight: 500; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(135deg, var(--secondary-color) 0%, #34495e 100%); color: white; padding: 100px 5%; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; margin-bottom: 25px; }
+        .btn { background: var(--primary-color); color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #005a87; }
+
+        /* Content Sections */
+        .section { padding: 80px 5%; max-width: 1100px; margin: auto; }
+        .section h2 { border-left: 5px solid var(--primary-color); padding-left: 15px; margin-bottom: 30px; color: var(--secondary-color); }
+
+        .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .card h3 { color: var(--primary-color); margin-bottom: 5px; }
+        .card .date { font-size: 0.9rem; color: #666; margin-bottom: 15px; display: block; }
+
+        /* Skills */
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+        .skill-tag { background: #e1e9ee; padding: 10px; text-align: center; border-radius: 4px; font-weight: 500; color: #314351; }
+
+        /* Footer */
+        footer { background: var(--secondary-color); color: white; padding: 40px 5%; text-align: center; }
+        .social-links { margin-bottom: 20px; }
+        .social-links a { color: white; font-size: 1.5rem; margin: 0 15px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">EJA.</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Enric Jeims Agra</h1>
+    <p>MBA | MHM | Strategic Healthcare Management & Cloud Solutions</p>
+    <a href="https://www.linkedin.com/in/enric-jeims-agra-mba-mhm-2ba2a51ba/" class="btn" target="_blank">View LinkedIn Profile</a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>A multi-disciplinary professional with a dual focus on <b>Business Administration (MBA)</b> and <b>Health Management (MHM)</b>. Expert in bridging the gap between operational efficiency and technological innovation. With a strong interest in <b>Microsoft Azure</b> and digital transformation, I specialize in streamlining healthcare systems through modern cloud infrastructure and strategic leadership.</p>
+    </div>
+</section>
+
+<section id="experience" class="section">
+    <h2>Professional Experience</h2>
+    <!-- Repeat these cards for your actual jobs -->
+    <div class="card">
+        <h3>[Current Job Title]</h3>
+        <span class="date">[Start Date] – Present</span>
+        <p>[Brief description of your role, key responsibilities, and achievements from your LinkedIn profile.]</p>
+    </div>
+    <div class="card">
+        <h3>[Previous Job Title]</h3>
+        <span class="date">[Date Range]</span>
+        <p>[Highlight one or two major contributions here, such as cost-savings or system implementations.]</p>
+    </div>
+</section>
+
+<section id="education" class="section">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Master in Hospital Management (MHM)</h3>
+        <p>[University Name, Philippines]</p>
+    </div>
+    <div class="card">
+        <h3>Master of Business Administration (MBA)</h3>
+        <p>Jose Rizal University</p>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2>Core Expertise</h2>
+    <div class="skills-grid">
+        <div class="skill-tag">Hospital Operations</div>
+        <div class="skill-tag">Strategic Planning</div>
+        <div class="skill-tag">Azure Cloud</div>
+        <div class="skill-tag">Business Analytics</div>
+        <div class="skill-tag">Digital Health</div>
+        <div class="skill-tag">Leadership</div>
+    </div>
+</section>
+
+<footer id="contact">
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/enric-jeims-agra-mba-mhm-2ba2a51ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; Enric Jeims Agra</p>
+</footer>
+
+</body>
+</html>
